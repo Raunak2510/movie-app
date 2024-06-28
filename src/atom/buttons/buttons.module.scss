@@ -1,0 +1,13 @@
+.button{
+    display: flex;
+    cursor: pointer;
+    padding: 10px 15px;
+    background-color: var(--red);
+  
+
+    span{
+        font-weight: 550;
+        color: white;
+        font-size: var(--fs-large);
+    }
+}

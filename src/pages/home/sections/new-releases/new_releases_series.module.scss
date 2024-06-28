@@ -1,0 +1,23 @@
+.container{
+    margin-left: 150px;
+  margin-top: -60px;
+   width: 1200px;
+   height: 500px;
+    
+    
+    .trend_card{
+        display: flex;
+        height: 400px;
+        overflow: hidden;
+        gap: 40px;
+
+    }
+    .viewall{
+        display: inline;
+        margin-left: 825px;
+    }
+    h2{
+        display: inline;
+    }
+
+}

@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  background-color: black;
 }
 
 .App-logo {
@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.main-nav{
+  color:black ;
+  height: 50px;
+  width: 400px;
+}
+
+

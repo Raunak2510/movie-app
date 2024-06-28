@@ -1,0 +1,48 @@
+.container{
+    background-color: black;
+    
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 210px; 
+    justify-content: center;
+    
+    margin: 1rem;
+    position: relative; 
+    justify-content: center;
+
+    .smallcontainer{
+        display: flex;
+        gap: 60px;
+        overflow: hidden;
+        background-color: black;
+        
+
+        h3{
+          color: white;
+          font-size: small;
+        }
+    }
+
+    .newimg{
+        width: 250px;
+        height: 300px;
+        object-fit: fill;
+    }
+    .type{
+        border: 2px;
+        background-color: red;
+        
+    }
+
+    .time{
+        border: 1px solid;
+        border-color: red;
+    }
+    .secondtext{
+        display: flex;
+        gap: 5px;
+        position: relative;
+    }
+}

@@ -1,0 +1,57 @@
+.container{
+    margin-left: 150px;
+  margin-top: -60px;
+   width: 1200px;
+   height: 500px;
+   overflow: hidden;
+   flex-direction: row;
+    
+    
+    .trend_card{
+        display: flex;
+        height: 400px;
+        overflow: hidden;
+        gap: 40px;
+       
+
+    }
+    .viewall{
+        display: inline;
+        margin-left: 630px;
+    }
+    h2{
+        display: inline;
+    }
+    .movies{
+        border: 1px solid;
+        border-color: black;
+        background-color: red;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    .series{
+        border: 1px solid;
+        border-color: red;
+       
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    .animation{
+        border: 1px solid;
+        border-color: red;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    .smallcontainer{
+        display: flex;
+       
+        gap: 10px;
+    }
+    
+    .title{
+       margin-top: 20px;
+    }
+
+}
